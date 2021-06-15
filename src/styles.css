@@ -1,0 +1,6 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  background-image: url(https://source.unsplash.com/user/erondu);
+  display: flex;
+  align-items: center;
+}

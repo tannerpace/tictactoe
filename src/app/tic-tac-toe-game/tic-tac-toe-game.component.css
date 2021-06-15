@@ -1,0 +1,30 @@
+body {
+  z-index: 1;
+  background-image: url(https://source.unsplash.com/random/1920*1080);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2em;
+}
+td {
+  border-left: solid rgb(58, 141, 127) 7px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 30pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+tr {
+  border-bottom: solid rgb(58, 141, 127) 7px;
+}
+tr:last-child {
+  border-bottom: none;
+}
+td:first-child {
+  border-left: none;
+}

@@ -1,0 +1,32 @@
+<div>
+
+    <p>X: {{xScore}} wins --- O: {{oScore}} wins</p>
+    <h2>{{turn}}'s turn</h2>
+
+
+    <table>
+
+        <tr>
+            <td (click)="cellClicked(0,0)">{{boardData[0][0]}}</td>
+            <td (click)="cellClicked(0,1)">{{boardData[0][1]}}</td>
+            <td (click)="cellClicked(0,2)">{{boardData[0][2]}}</td>
+        </tr>
+
+        <tr>
+            <td (click)="cellClicked(1,0)">{{boardData[1][0]}}</td>
+            <td (click)="cellClicked(1,1)">{{boardData[1][1]}}</td>
+            <td (click)="cellClicked(1,2)">{{boardData[1][2]}}</td>
+
+        </tr>
+        <tr>
+            <td (click)="cellClicked(2,0)">{{boardData[2][0]}}</td>
+            <td (click)="cellClicked(2,1)">{{boardData[2][1]}}</td>
+            <td (click)="cellClicked(2,2)">{{boardData[2][2]}}</td>
+        </tr>
+
+
+
+
+    </table>
+
+</div>
